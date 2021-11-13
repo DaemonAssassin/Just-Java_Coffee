@@ -1,0 +1,48 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- app name [CHAR LIMIT = 12] -->
+    <string name="app_name">Just Java</string>
+
+    <!-- hint for EditText view of Name [CHAR LIMIT = 20] -->
+    <string name="name_hint">Name</string>
+
+    <!-- Header text for list of toppings [CHAR LIMIT = 20] -->
+    <string name="toppings">Toppings</string>
+
+    <!-- Checkbox text for whipped cream [CHAR LIMIT = 20] -->
+    <string name="whipped_cream">Whipped cream</string>
+
+    <!-- Checkbox text for chocolate [CHAR LIMIT = 20] -->
+    <string name="chocolate">Chocolate</string>
+
+    <!-- Header text for list of quantity [CHAR LIMIT = 20] -->
+    <string name="quantity">Quantity</string>
+
+    <!-- quantity number text view to show the no of coffees [CHAR LIMIT = 5] -->
+    <string name="initial_quantity">2</string>
+
+    <!-- Checkbox text for order button [CHAR LIMIT = 20] -->
+    <string name="order_button">Order</string>
+
+    <!-- Name of the customer in Order Summary.  [CHAR LIMIT = NONE] -->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Mateen">%s</xliff:g></string>
+
+    <!-- Add whipped cream checkbox in Order Summary.  [CHAR LIMIT = NONE] -->
+    <string name="order_summary_add_whipped_cream">Add whipped cream? <xliff:g id="name">%b</xliff:g></string>
+
+    !-- Add chocolate checkbox in Order Summary.  [CHAR LIMIT = NONE] -->
+    <string name="order_summary_quantity_add_chocolate">Add chocolate? <xliff:g id="name">%b</xliff:g></string>
+
+    <!-- Quantity of coffee in Order Summary.  [CHAR LIMIT = NONE] -->
+    <string name="order_summary_quantity">Quantity: <xliff:g id="name">%d</xliff:g></string>
+
+    <!-- Quantity of coffee in Order Summary.  [CHAR LIMIT = NONE] -->
+    <string name="order_summary_total_price">Total: <xliff:g id="name">%s</xliff:g></string>
+
+    <!-- Thank you message for the order summary. [CHAR LIMIT = NONE] -->
+    <string name="thank_you">Thanks</string>
+
+    <!-- Subject of the email to send e.g; Just Java Order  [CHAR LIMIT = NONE] -->
+    <string name="order_summary_email_subject">Just Java Order</string>
+
+</resources>

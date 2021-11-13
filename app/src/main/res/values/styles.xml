@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom Header text style -->
+    <style name="CustomHeaderText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Buttons style -->
+    <style name="ButtonsStyle">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+</resources>
